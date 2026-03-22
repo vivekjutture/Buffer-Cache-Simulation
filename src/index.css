@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+/* Optional: Any custom CSS variables for Tailwind 4 go here under @theme */
+@theme {
+  --color-brand-blue: #2563eb;
+}
+
+body {
+  background-color: #020617; /* Tailwind slate-950 */
+}
+
+/* Custom scrollbar for our log terminal */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #334155;
+  border-radius: 20px;
+}
+
+/* Hide number input arrows universally */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+}
