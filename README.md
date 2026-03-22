@@ -56,7 +56,7 @@ Once initialized, you have full control over the kernel:
 ## 🚀 Installation & Setup
 
 1. Clone the repository:
-   git clone https://github.com/your-username/unix-buffer-simulator.git
+   git clone https://github.com/vivekjutture/Buffer-Cache-Simulation.git
 
 2. Install Dependencies:
    npm install
